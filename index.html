@@ -28,6 +28,7 @@
 .dev-mon-screen{position:relative;aspect-ratio:16/9;overflow:hidden;border-radius:4px;background:#000}
 .dev-mon-neck{width:20%;height:52px;margin:-2px auto 0;background:linear-gradient(90deg,#8d8d96,#d8d8de 45%,#9b9ba4);clip-path:polygon(14% 0,86% 0,100% 100%,0 100%)}
 .dev-mon-foot{width:34%;height:9px;margin:0 auto;border-radius:6px 6px 10px 10px;background:linear-gradient(#d0d0d6,#86868f);box-shadow:0 14px 26px rgba(0,0,0,.55)}
+.ddmx-title{font-size:15px}@media(min-width:768px){.ddmx-title{font-size:16px}}@media(min-width:1024px){.ddmx-title{font-size:clamp(12px,1.25vw,17px)}}
 .car-dot{width:8px;height:8px;border-radius:99px;background:#463654;transition:all .3s;border:0;padding:0;cursor:pointer}
 .car-dot.on{width:24px;background:linear-gradient(90deg,#f97316,#ec4899)}
 .tab-btn{padding:6px 16px;border-radius:99px;font:500 12px "JetBrains Mono",monospace;letter-spacing:.04em;color:#cdbfdb;background:#241a35;border:0;cursor:pointer;transition:all .2s}
@@ -73,7 +74,7 @@
 </div>
 <div class="flex items-center gap-3 pt-1"><a href="https://github.com/Emanuel-Mendonca" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="w-11 h-11 rounded-xl bg-surface-container-high text-on-surface hover:bg-primary-container hover:text-on-primary-container transition-colors grid place-items-center text-[20px]"><span class="si" style="--i:url(assets/icons/si-github.svg)"></span></a><a href="https://www.linkedin.com/in/emanuel-mendoncaa/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="w-11 h-11 rounded-xl bg-surface-container-high text-on-surface hover:bg-primary-container hover:text-on-primary-container transition-colors grid place-items-center text-[20px]"><span class="si" style="--i:url(assets/icons/si-linkedin.svg)"></span></a><a href="https://mail.google.com/mail/?view=cm&fs=1&to=emanueldh597%40gmail.com&su=Contato%20pelo%20portf%C3%B3lio" target="_blank" rel="noopener noreferrer" aria-label="E-mail" class="w-11 h-11 rounded-xl bg-surface-container-high text-on-surface hover:bg-primary-container hover:text-on-primary-container transition-colors grid place-items-center text-[20px]"><span class="si" style="--i:url(assets/icons/si-gmail.svg)"></span></a></div>
 <div class="grid grid-cols-3 gap-space-md pt-space-lg">
-<div class="flex flex-col"><div class="flex items-center gap-2"><img alt="PUC Minas" class="w-8 h-8 rounded-md object-contain" src="assets/puc-minas.png"><span class="font-headline-md text-headline-md font-bold text-on-surface">PUC-MG</span></div><span class="font-label-sm text-label-sm text-outline">Análise e Desenv. de Sistemas</span></div>
+<div class="flex flex-col"><img alt="PUC Minas" class="h-11 w-auto self-start" src="assets/puc-brasao.png"><span class="font-label-sm text-label-sm text-outline">Análise e Desenv. de Sistemas</span></div>
 <div class="flex flex-col">
 <span class="font-headline-md text-headline-md font-bold text-secondary">E2E + BDD</span>
 <span class="font-label-sm text-label-sm text-outline">Engenharia de Qualidade</span>
@@ -345,10 +346,10 @@
           Da área comercial para a qualidade de software, com formação acadêmica em ADS.
         </p>
 </div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
 <div class="flex flex-col p-space-lg rounded-2xl bg-surface-container-low shadow-sm">
 <div class="flex items-center justify-between mb-4"><span class="px-3 py-1 rounded-md bg-secondary/10 text-secondary font-label-sm text-label-sm font-semibold">Experiência Atual</span><span class="font-label-sm text-label-sm text-outline">Atual</span></div>
-<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-2"><a class="inline-flex items-center gap-2 hover:text-primary transition-colors" href="https://ddmx.com.br" target="_blank" rel="noopener noreferrer">DDMX — Analista de Sistemas Jr<span class="ci text-[16px]" style="--i:url(assets/icons/external_link.svg)" aria-hidden="true"></span></a></h3>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-2"><a class="ddmx-title inline-flex items-center gap-1.5 whitespace-nowrap hover:text-primary transition-colors" href="https://ddmx.com.br" target="_blank" rel="noopener noreferrer">DDMX — Analista de Sistemas Jr<span class="ci text-[16px]" style="--i:url(assets/icons/external_link.svg)" aria-hidden="true"></span></a></h3>
 <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4">Planejamento e execução de testes funcionais, de regressão e E2E; identificação e acompanhamento de bugs; validação de provas de conceito; documentação de produto; comunicação entre Produto, Comercial e Suporte Técnico em ambiente ágil.</p>
 <div class="mt-auto pt-4 flex items-center gap-2 text-outline font-label-sm text-label-sm"><span class="ci text-[16px]" style="--i:url(assets/icons/circle_check.svg)" aria-hidden="true"></span><span>Testes • Bugs • Documentação</span></div>
 </div>
@@ -364,6 +365,22 @@
 <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4">Graduação em Análise e Desenvolvimento de Sistemas na PUC Minas.</p>
 <div class="mt-auto pt-4 flex items-center gap-2 text-outline font-label-sm text-label-sm"><span class="ci text-[16px]" style="--i:url(assets/icons/book_open.svg)" aria-hidden="true"></span><span>PUC Minas • ADS</span></div>
 </div>
+</div>
+<figure class="mt-space-xl rounded-3xl p-[1px] bg-gradient-to-r from-primary-container/60 via-secondary-container/40 to-tertiary-container/60">
+<div class="rounded-3xl bg-surface-container-low p-space-lg lg:p-space-xl flex flex-col md:flex-row gap-space-lg items-start">
+<span class="ci text-[44px] text-primary-container shrink-0" style="--i:url(assets/icons/double_quotes_l.svg)" aria-hidden="true"></span>
+<div class="flex flex-col gap-space-md min-w-0">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-semibold">RECOMENDAÇÃO NO LINKEDIN</span>
+<blockquote class="font-body-lg text-body-lg text-on-surface leading-relaxed">Profissional de grande senso de responsabilidade. Compromissado, absorve conhecimento com naturalidade e se adapta rapidamente a novos desafios. Perfil técnico/comercial de grande valia para a empresa. Um excelente perfil profissional para a equipe comercial.</blockquote>
+<figcaption class="flex items-center gap-3">
+<span class="w-11 h-11 rounded-full bg-gradient-to-tr from-primary-container to-secondary-container text-on-primary-container grid place-items-center font-headline-sm text-body-sm font-bold shrink-0" aria-hidden="true">RA</span>
+<span class="flex flex-col min-w-0"><span class="font-headline-sm text-body-md font-bold text-on-surface">Roger Archeti R. Alves</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Founder Annexar • CSO Good Villages • Board Member &amp; Startup Mentor</span>
+<span class="font-label-sm text-label-sm text-outline">Supervisionou Emanuel diretamente • 19 de junho de 2024</span></span>
+</figcaption>
+</div>
+</div>
+</figure>
 </div>
 </section>
 <!-- SKILLS -->
